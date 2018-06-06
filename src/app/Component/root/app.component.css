@@ -1,0 +1,481 @@
+
+
+.header{
+  width: 100%;
+  height: 450px;
+  padding-top: 5px;
+  background-image: url("../../../assets/backlit-bonding-casual-708392.jpg");
+  background-size: cover;
+
+
+}
+/*
+.pic1 .img1{
+  width: 100%;
+  height: 450px;
+  background-image: url("../../../assets/backlit-bonding-casual-708392.jpg");
+  background-size: cover;
+}
+.pic1 .img2{
+  width: 100%;
+  height: 450px;
+
+  background-image: url("../../../assets/bag-bags-bargain-5956.jpg");
+  background-size: cover;
+
+}
+.pic1 .img3{
+  width: 100%;
+  height: 450px;
+
+  background-image: url("../../../assets/adult-backlit-beach-1000445.jpg");
+  background-size: cover;
+}
+*/
+
+nav{
+  position: relative;
+}
+.navbar-brand{
+  color: white;
+  margin-left:55px;
+  font-size: 35px;
+  font-family: "Pacifico",cursive;
+}
+.navbar-brand i{
+  left: 27px;
+  top: 18px;
+  position: absolute;
+  font-size: 46px;
+  color: #ff4949;
+
+}
+.navbar-brand:hover{
+  color: white;
+}
+.navbar-nav{
+  margin-left: 76%;
+}
+.navbar-nav .nav-item a{
+  margin-right: 21px;
+  color: #ffffff;
+  font-size: 25px;
+  border-radius: 6px;
+  width: 95px;
+  height: 43px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.search{
+  position: relative;
+  margin-top: 170px;
+}
+.search p{
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+.search-input {
+  margin-right: 10px;
+  height: 45px;
+  padding-left: 35px;
+  cursor: pointer;
+  border: none;
+
+}
+.location-input {
+  height: 45px;
+  padding-left: 30px;
+  cursor: pointer;
+  border: none;
+}
+
+.search-input:focus,
+.location-input:focus{
+  border: none;
+  user-input: none;
+  user-select: none;
+  outline: none;
+}
+@media screen and (max-width: 1500px) {
+  .search .fa-search{
+    position: absolute;
+    font-size: 25px;
+    top: 8px;
+    left: 353px;
+  }
+  .search .fa-map-marker{
+    position: absolute;
+    font-size: 30px;
+    top: 8px;
+    left: 915px;
+  }
+
+
+}
+@media screen and (max-width: 1300px) {
+  .search .fa-search{
+   display: none;
+  }
+  .search .fa-map-marker{
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width: 560px) {
+  .search-input{
+    width: 220px !important;
+    height: 45px;
+    padding-left: 35px;
+    margin-left: 5%;
+    margin-bottom: 15px;
+    display: inline;
+    font-size: 20px;
+  }
+  .location-input{
+    width: 150px;
+    height: 45px;
+    padding-left: 35px;
+    display: inline;
+    font-size: 20px;
+  }
+  .search .fa-search{
+display: none
+  }
+  .search .fa-map-marker{
+  display: none
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .search-input{
+    width: 40% !important;
+    height: 45px;
+    padding-left: 35px;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    display: inline;
+    font-size: 20px;
+  }
+  .location-input{
+    width: 110px;
+    height: 45px;
+    padding-left: 15px;
+    display: inline;
+    font-size: 20px;
+  }
+
+  .search .fa-search{
+    display: none
+  }
+  .search .fa-map-marker{
+    display: none
+  }
+
+}
+
+
+
+/** mode **/
+
+.mode .choose-mode{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 35px;
+  color : #373c4f;
+  font-weight: bold;
+}
+.mode .alone, .mode .couple, .mode .party{
+  border: 1px solid white;
+  border: none;
+  border-radius:10px ;
+  height: 230px;
+  background-size: cover;
+  margin-left: 7%;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  padding-top:90px;
+  opacity: 0.8;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.mode .alone{
+
+  background-image: url("../../../assets/alone.png");
+
+}
+.mode .couple{
+  background-image: url("../../../assets/2018-06-01_173000.png");
+}
+.mode .party{
+  background-image: url("../../../assets/friends.png");
+}
+
+
+
+
+
+/****/
+
+.fasla{
+  margin-top: 45px;
+  margin-bottom: 25px;
+  width: 50%;
+  border: 1px solid slategray;
+}
+
+/**content**/
+
+.category .choose-store
+{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 35px;
+  color: #373c4f;
+  font-weight: bold;
+}
+
+.category .coffe, .category .restaurant, .category .club,
+.category .gym, .category .store{
+
+  border: none;
+  border-radius:10px ;
+  height: 230px;
+  background-size: cover;
+  margin-left: 3%;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  padding-top:90px;
+  opacity: 0.8;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.category .coffe{
+
+  background-image: url("../../../assets/coffee.png");
+}
+.category .restaurant{
+  background-image: url("../../../assets/rest.png");
+}
+.category .store{
+  background-image: url("../../../assets/store.png");
+}
+.category .gym{
+  background-image: url("../../../assets/gym.png");
+
+}
+.category .club{
+
+  background-image: url("../../../assets/club.png");
+}
+/****/
+/*#373c4f*/
+/** content **/
+.content{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+ }
+
+.content .left{
+
+  width: 100%;
+  padding-top:15px;
+  padding-left: 50px;
+}
+
+.content .left .collect-head{
+  margin-bottom: 35px;
+}
+.content .left .new-collectin{
+  font-size: 20px;
+  font-weight: bold;
+  color: #373c4f;
+  display: inline;
+}
+.content .left .collect-option{
+  width: 35%;
+
+  display: inline;
+}
+
+.content .left .collection{
+  width: 93%;
+
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.content .left .collection .img-cover{
+  width: 70px;
+  height: 70px;
+  border: 1px solid #373c4f;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-size: cover;
+  display: inline;
+  float: left;
+}
+.content .left .collection .data{
+float: left;
+
+}
+.content .left .collection .data .data1{
+  height: 25px;
+}
+.content .left .collection .data .data1 > p{
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+.content .left .collection .data .data2{
+  margin: 0;
+}
+.content .left .collection .data .data2 > p{
+  margin-left: 10px;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.content .left .collection .clear{
+  clear: both;
+}
+.content .left .collection .collection-content{
+  padding: 15px;
+  padding-left: 90px;
+  overflow: hidden;
+  font-size: 20px;
+}
+.content .left .collection .collection-content div > .img1{
+  background-size: cover;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  width: 180px;
+  height: 180px;
+  margin-right:4%;
+  margin-bottom: 10px;
+}
+.content .left .collection .collection-content span,
+.content .left .collection .collection-content span > a{
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+.content .right{
+  width: 100%;
+
+  padding-top: 15px;
+}
+.content .right .collect-head{
+  margin-bottom: 10px;
+}
+.content .right .collect-head > p{
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
+  color: #373c4f;
+}
+.content .right .newstore{
+  width: 93%;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.content .right .newstore .img-cover{
+  width: 50px;
+  height: 50px;
+  border: 1px solid #373c4f;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-size: cover;
+  display: inline;
+  float: left;
+}
+
+.content .right .newstore .data{
+  float: left;
+
+}
+.content .right .newstore .data .data1{
+  height: 25px;
+}
+.content .right .newstore .data .data1 > p{
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+.content .right .newstore .data .data2{
+  margin: 0;
+}
+.content .right .newstore .data .data2 > p{
+  margin-left: 10px;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.content .right .newstore .clear{
+  clear: both;
+}
+
+.content .right .our-App{
+  width: 93%;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.content .right .our-App > p{
+  margin-left: 5%;
+  font-weight: bold;
+  font-size: 20px;
+}
+.content .right .our-App .download{
+  width: 100%;
+}
+.content .right .our-App .download > div{
+  height: 80px;
+  background-color: black;
+
+  border-radius: 5px;
+}
+
+.advertising{
+  width: 70%;
+  margin-left: 15%;
+  height: 350px;
+  margin-bottom: 25px;
+  }
+
+.advertising .adver2{
+
+  border-radius: 15px;
+  background-size: cover;
+  background-image: url("../../../assets/adver2.jpg");
+  height: 100%;
+}
